@@ -8,7 +8,9 @@
 /* ? Custom properties */
 
 :root{
-    --blue: #0061FF
+    --blue: #0061FF;
+    --sky: #b4d0e7;
+    --text13: 13px
 }
 
 /* ? generics */
@@ -30,14 +32,50 @@ img{
     display: block;
 }
 
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+p{
+    font-size: var(--text13);
+    font-weight: lighter;
+}
+
+.fa-arrow-down{
+    margin-top: 30px;
+}
+
 /*  Utility  */
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
 
 .btn{
+    display: inline-block;
     color: white;
     background-color: var(--blue);
     padding: 5px 10px;
+    font-size: var(--text13);
 }
 
+.row{
+    display: flex;
+}
+
+.row > .col-30{
+    flex-basis: 30%;
+}
+
+.row > .col-70{
+    flex-basis: 70%;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /* header */
 header{
@@ -66,6 +104,14 @@ header ul{
 .side-menu a{
     font-size: 14px;
 }
+
+/* spotlight */
+
+#spotlight{
+    background-color: var(--sky);
+}
+
+
 
 
 
