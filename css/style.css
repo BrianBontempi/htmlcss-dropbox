@@ -79,6 +79,11 @@ span{
 .btn-large{
     padding: 10px 15px;
 }
+.btn-white{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6) ;
+}
 
 .row{
     display: flex;
@@ -156,6 +161,11 @@ header ul{
 .full-col{
     flex-basis: 100%;
     padding: 20px;
+}
+
+/* partner section */
+#partner .col-40{
+    padding: 40px;
 }
 
 
