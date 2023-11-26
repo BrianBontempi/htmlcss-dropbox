@@ -28,6 +28,12 @@ a{
     text-decoration: none;
 }
 
+a.undl-blue{
+    color: var(--blue);
+    text-decoration: underline;
+    font-size: var(--text13);
+}
+
 img{
     max-width: 100%;
     display: block;
@@ -97,6 +103,9 @@ span{
 
 .row > .col-70{
     flex-basis: 70%;
+}
+.brd-b{
+    border-bottom: 1px solid var(--t-gray);
 }
 .mb-120{
     margin-bottom: 120px;
@@ -168,6 +177,38 @@ header ul{
     padding: 40px;
 }
 
+/* costumer section */
+#costumer{
+    display: flex;
+
+    min-height: 650px;
+    border: 1px dashed var(--blue);
+}
+
+
+
+/* question section */
+#quest li{
+    padding: 30px;
+    border-top: 1px solid var(--t-gray);
+
+    font-size: var(--text13);
+}
+#quest i{
+    position: relative;
+    top: 0;
+    left: 220px;
+}
+
+/* footer */
+#link{
+    background-color: black;
+    min-height: 400px;
+}
+#link .col{
+    border: 1px dashed white;
+    min-height: 300px;
+}
 
 
 
