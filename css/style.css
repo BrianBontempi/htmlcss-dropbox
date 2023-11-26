@@ -10,6 +10,7 @@
 :root{
     --blue: #0061FF;
     --sky: #b4d0e7;
+    --t-gray: rgba(128, 128, 128, 0.5);
     --text13: 13px
 }
 
@@ -55,12 +56,6 @@ span{
 
 .fa-arrow-down{
     margin-top: 30px;
-}
-
-.far{
-    font-size: 14px;
-    padding: 4px;
-    color: grey;
 }
 
 /*  Utility  */
@@ -140,12 +135,28 @@ header ul{
 }
 
 /* businnes plan section */
+.invoicing i{
+    font-size: 15px;
+    padding: 4px;
+}
 
 .fas.brd-blue{
     color: var(--blue);
-    font
 }
 
+.far{
+    color: var(--t-gray);
+}
+
+.card{
+    min-height: 200px;
+    border: 1px solid var(--t-gray);
+}
+
+.full-col{
+    flex-basis: 100%;
+    padding: 20px;
+}
 
 
 
