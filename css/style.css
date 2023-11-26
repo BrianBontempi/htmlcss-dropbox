@@ -33,9 +33,13 @@ img{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 55px;
     margin-bottom: 30px;
     font-weight: 800;
+}
+
+h2{
+    font-size: 30px;
 }
 
 p{
@@ -43,13 +47,29 @@ p{
     font-weight: lighter;
 }
 
+span{
+    font-size: 11px;
+    font-weight: 100;
+    color: rgb(37, 36, 36);
+}
+
 .fa-arrow-down{
     margin-top: 30px;
+}
+
+.far{
+    font-size: 14px;
+    padding: 4px;
+    color: grey;
 }
 
 /*  Utility  */
 .container{
     max-width: 950px;
+    margin: 0 auto;
+}
+.container-xs{
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -61,8 +81,14 @@ p{
     font-size: var(--text13);
 }
 
+.btn-large{
+    padding: 10px 15px;
+}
+
 .row{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .row > .col-30{
@@ -72,14 +98,13 @@ p{
 .row > .col-70{
     flex-basis: 70%;
 }
-
-.mb-20{
-    margin-bottom: 20px;
+.mb-120{
+    margin-bottom: 120px;
 }
 
 /* header */
 header{
-    position: sticky ;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
@@ -109,6 +134,16 @@ header ul{
 
 #spotlight{
     background-color: var(--sky);
+
+    padding-top: 60px;
+    height: 550px;
+}
+
+/* businnes plan section */
+
+.fas.brd-blue{
+    color: var(--blue);
+    font
 }
 
 
