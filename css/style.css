@@ -169,14 +169,36 @@ header ul{
     color: var(--t-gray);
 }
 
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+    border: 1px solid var(--t-gray);
+    border-bottom: none;
+    padding: 5px;
+
+    font-size: var(--text13);
+}
+
 .card-brd{
     min-height: 200px;
     border: 1px solid var(--t-gray);
+    padding: 25px 20px;
 }
 
 .full-col{
     flex-basis: 100%;
     padding: 20px;
+}
+
+.card-brd li{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.card-brd i{
+    margin-right: 5px;
 }
 
 /* partner section */
