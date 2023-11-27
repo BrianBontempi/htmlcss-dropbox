@@ -304,8 +304,13 @@ header ul{
     align-items: center;
 
     flex-basis: 50%;
-
     height: 50%;
+
+    border: 15px solid transparent;
+}
+
+.small-box:hover{
+    border-color: rgba(255, 255, 255, 0.5)
 }
 
 .small-box img{
