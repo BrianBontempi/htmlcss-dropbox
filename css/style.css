@@ -68,6 +68,15 @@ span{
     margin-top: 30px;
 }
 
+.fa-check{
+    color: var(--blue);
+}
+
+hr{
+    width: 20%;
+    margin: 25px 0;
+}
+
 /*  Utility  */
 .container{
     max-width: 950px;
@@ -183,9 +192,23 @@ header ul{
 }
 
 .card-brd{
-    min-height: 200px;
+    height: 600px;
     border: 1px solid var(--t-gray);
     padding: 25px 20px;
+}
+
+.card-brd.full{
+    max-height: 200px;
+}
+
+.card-brd.relative{
+    position: relative;
+}
+
+.card-brd.relative a{
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .full-col{
@@ -199,6 +222,10 @@ header ul{
 }
 .card-brd i{
     margin-right: 5px;
+}
+.fa-ul{
+    margin: 0;
+    padding-left: 20px;
 }
 
 /* partner section */
