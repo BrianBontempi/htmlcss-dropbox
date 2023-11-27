@@ -14,6 +14,40 @@
     --text13: 13px
 }
 
+/* colors */
+
+.green{
+    background-color: rgb(158, 232, 158);
+}
+
+.brown{
+    background-color: rgb(123, 30, 30);
+}
+
+.turchese{
+    background-color: rgb(0, 157, 255);
+}
+
+.red{
+    background-color: red;
+}
+
+.sky{
+    background-color: var(--sky);
+}
+
+.blu{
+    background-color: rgb(6, 6, 158);
+}
+
+.yellow{
+    background-color: rgb(233, 233, 35);
+}
+
+.grey{
+    background-color: rgb(245, 242, 242);
+}
+
 /* ? generics */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -62,6 +96,11 @@ span{
     font-size: 11px;
     font-weight: 100;
     color: rgb(37, 36, 36);
+}
+
+address{
+    font-style: normal;
+    font-size: var(--text13);
 }
 
 .fa-arrow-down{
@@ -236,12 +275,43 @@ header ul{
 /* costumer section */
 #costumer{
     display: flex;
-
-    min-height: 650px;
-    border: 1px dashed var(--blue);
+    flex-wrap: wrap;
 }
 
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
 
+    flex-basis: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.big-box.central{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 40px;
+}
+
+.big-box img{
+    max-width: 50%;
+}
+
+.small-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 50%;
+
+    height: 50%;
+}
+
+.small-box img{
+    width: 50%;
+    filter: invert(1);
+}
 
 /* question section */
 #quest li{
